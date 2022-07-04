@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
-* main - Prints a serie of numbers with commas
-*
-* Return: Always (Success);
+* main - prints all npossible numbers of single digits
+* followed by a new line
+* Return: 0 if (successful)
 */
 int main(void)
 {
-int c;
-for (c = '0'; c <= '9'; c++)
+int n;
+for (n = 48; n < 58; n++)
 {
-putchar(c);
-if (c != '9')
+putchar(n);
+if (n != 57)
 {
-putchar(',');																
-putchar(' ');																	
+putchar(',');
+putchar					
+' ');																			
 }
 }
 putchar('\n');
